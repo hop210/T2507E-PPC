@@ -10,14 +10,13 @@ public class Cylinder
     private double TotalArea;
     private double Volume;
 
-    // Constructor
+    
     public Cylinder(double radius, double height)
     {
         Radius = radius;
         Height = height;
     }
-
-    // Method tính toán
+    
     public void Process()
     {
         BaseArea = Math.PI * Radius * Radius;
@@ -25,8 +24,7 @@ public class Cylinder
         TotalArea = 2 * Math.PI * Radius * (Height + Radius);
         Volume = Math.PI * Radius * Radius * Height;
     }
-
-    // Method trả kết quả
+    
     public string Result()
     {
         return $"Base Area: {BaseArea:F2}\n" +

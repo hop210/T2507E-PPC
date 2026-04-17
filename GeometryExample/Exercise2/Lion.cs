@@ -4,7 +4,7 @@ public class Lion : Animal
 {
     public Lion(double w, string n)
     {
-        SetMe(w, n); // gọi method base
+        SetMe(w, n); 
     }
 
     public override void Show()
